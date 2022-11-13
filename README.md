@@ -5,19 +5,22 @@ For my front end, I utilize Vue JS, which is excellent for creating single-page 
 I use the Laravel framework for my backend since it contains a lot of pre-built functions and structures, which allows me to develop more quickly. The MVCS Architecture, which separates the logic, data-handling, UI, and controller processes of the project, also enables me to use it. For cleaner and more understandable code, I use GuzzleHttp instead of cURL for making HTTP requests for weather and location. I also utilize the service layer to separate the business logic from the controller layer, which also enables me to reuse the function incase we need if the project will continue.
 
 
-Stack used:
-PHP - Laravel 9 
-Javascript - Vue JS 3
-CSS - Bootstrap 5
-node version : v18.12.1
-php version : v8.1.12
-
+Stack used: <br>
+PHP - Laravel 9 <br>
+Javascript - Vue JS 3 <br>
+CSS - Bootstrap 5 <br>
+node version : v18.12.1 <br>
+php version : v8.1.12 <br>
+<br>
+<br>
 To Run:
+<br>
+<br>
 
-cd /WeatherAppExam 
-cp .env.example .env
-php artisan key:generate
-composer install
-npm install
-php artisan serve
-npm run dev
+cd /WeatherAppExam <br>
+cp .env.example .env<br>
+php artisan key:generate<br>
+composer install<br>
+npm install<br>
+php artisan serve<br>
+npm run dev<br>
