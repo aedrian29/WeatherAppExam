@@ -8,15 +8,16 @@ use App\Services\FourSquareService;
 
 class CityController extends Controller
 {
-    private $OpenWeatherService;
+    private $openWeatherService;
+    private $fourSquareService;
 
     public function __construct(
-        OpenWeatherService $OpenWeatherService,
-        FourSquareService $FourSquareService
+        OpenWeatherService $openWeatherService,
+        FourSquareService $fourSquareService
     )
     {
-        $this->openWeatherService = $OpenWeatherService;
-        $this->fourSquareService = $FourSquareService;
+        $this->openWeatherService = $openWeatherService;
+        $this->fourSquareService = $fourSquareService;
     }
 
     public function getData($city)
